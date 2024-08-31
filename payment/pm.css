@@ -1,0 +1,130 @@
+/*Filename: style.css File  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+ 
+    background-image:url("Desktop\pp.html\payment\py.jpg");
+    background-position: center;
+}
+
+.container {
+    height: 900px;
+    width: 400px;
+    background-image: linear-gradient(#030405, #000000);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-bottom-left-radius: 180px;
+    border-top-right-radius: 150px;
+}
+
+.main-content {
+    height: 235px;
+    background-color: #00c957;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 80px;
+    border-top: #081b0d;
+}
+
+.text {
+    text-align: center;
+    font-size: 300%;
+    text-decoration: rgb(11, 11, 12);
+    color: rgb(1, 14, 26);
+}
+
+.course {
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.centre-content {
+    height: 180px;
+    margin: -70px 30px 20px;
+    color: rgb(178, 190, 14);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 25px;
+    padding-top: 0.5px;
+    background-image: linear-gradient(#1e6b30, #308d46);
+}
+
+.centre-content-h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: normal;
+}
+
+.price {
+    font-size: 60px;
+    margin-left: 5px;
+    bottom: 15px;
+    position: relative;
+}
+
+.pay-now-btn {
+    cursor: pointer;
+    color: #dfdddd;
+    height: 50px;
+    width: 290px;
+    border: none;
+    margin: 5px 30px;
+    background-color: rgb(71, 177, 61);
+    position: relative;
+}
+
+.card-details {
+    background: rgb(8, 49, 14);
+    color: rgb(225, 223, 233);
+    margin: 10px 30px;
+    padding: 10px;
+    /* border-bottom-left-radius: 80px; */
+}
+
+.card-details p {
+    font-size: 15px;
+}
+
+.card-details label {
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
